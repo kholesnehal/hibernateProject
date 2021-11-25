@@ -11,8 +11,15 @@
         <property name="connection.username">root</property>
         <property name="connection.password">pere@1234</property>
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
         <property name="show_sql">true</property>
         <mapping class="org.example.Student"></mapping>
+        <mapping class="org.example.Address"/>
+        <mapping class="com.relationshipOneToOne.Student1"/>
+        <mapping class="com.relationshipOneToOne.College"/>
+        <mapping class="com.manyToManyRelationship.Project"/>
+        <mapping class="com.manyToManyRelationship.Employee"/>
+
+
     </session-factory>
 </hibernate-configuration>
