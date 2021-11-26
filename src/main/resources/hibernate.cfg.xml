@@ -19,6 +19,8 @@
         <mapping class="com.relationshipOneToOne.College"/>
         <mapping class="com.manyToManyRelationship.Project"/>
         <mapping class="com.manyToManyRelationship.Employee"/>
+        <mapping class="onetomanyrelationship.Customer"/>
+        <mapping class="onetomanyrelationship.SalesOrder"/>
 
 
     </session-factory>
