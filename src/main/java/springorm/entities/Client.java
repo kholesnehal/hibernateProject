@@ -8,19 +8,22 @@ import javax.persistence.Table;
 @Data
 @Entity
 @Table(name="client")
-public class Client {
+public class Client
+{
     @Id
     private int clientId;
     private String clientName;
     private String clientAddress;
 
-    public Client(int clientId, String clientName, String clientAddress) {
+    public Client(int clientId, String clientName, String clientAddress)
+    {
         this.clientId = clientId;
         this.clientName = clientName;
         this.clientAddress = clientAddress;
     }
 
-    public Client() {
+    public Client()
+    {
 
     }
 

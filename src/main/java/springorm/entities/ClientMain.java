@@ -1,5 +1,4 @@
 package springorm.entities;
-
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.example.App;
@@ -28,8 +27,6 @@ public class ClientMain {
         logger.info("Press 1 for exit");
         try {
             int input = sc.nextInt();
-
-
             switch (input) {
                 case 1:
                     logger.info("Enter client id:");
@@ -42,7 +39,7 @@ public class ClientMain {
                     client.setClientId(cid);
                     client.setClientName(cname);
                     client.setClientAddress(saddress);
-//
+
                   int r= clientDao.insert(client);
                   logger.info(r+" client added!");
                     break;

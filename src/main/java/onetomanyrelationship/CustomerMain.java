@@ -11,7 +11,8 @@ import org.hibernate.cfg.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerMain {
+public class CustomerMain
+{
     private static final Logger logger = LogManager.getLogger(CustomerMain.class);
     public static void main(String[] args) {
         Configuration cfg= new Configuration() ;
