@@ -13,6 +13,7 @@ import java.util.Date;
 public class App 
 {
     private static final Logger logger = LogManager.getLogger(App.class);
+
     public static void main( String[] args )
     {
         Configuration cfg= new Configuration() ;

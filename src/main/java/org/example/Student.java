@@ -7,7 +7,8 @@ import javax.persistence.*;
 @Data
 @Entity
 
-public class Student {
+public class Student
+{
     @Id
     private int id;
     private String name;
